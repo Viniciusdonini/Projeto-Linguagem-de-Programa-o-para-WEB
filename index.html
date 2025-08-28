@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <link
     rel="icon"
-    href="logo2.PNG"
+    href="img/logo.PNG"
     type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VB Hustle Style</title>
@@ -18,7 +18,7 @@
 
   <!-- Header -->
 <header class="header">
-  <img src="img/logo.PNG" alt="Minha Logo" class="logo">
+  <span class="logo">VB Hustle Style</span>
   <nav class="nav">
     <ul>
       <li><a href="#">Masculino</a></li>
@@ -122,3 +122,21 @@
   </footer>
 </body>
 </html>
+
+<!-- Formulário de Contato -->
+<section class="contact-form">
+  <h2>Fale Conosco</h2>
+  <form action="#" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+
+    <button type="submit">Enviar</button>
+    <button type="button" onclick="history.back()">Voltar</button>
+  </form>
+</section>
